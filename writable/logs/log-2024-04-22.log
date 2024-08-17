@@ -1,0 +1,755 @@
+INFO - 2024-04-22 01:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-22 01:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-22 01:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-22 01:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-22 01:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-22 01:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-22 01:38:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-22 01:38:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-22 01:38:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-22 01:38:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-22 01:38:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-22 01:38:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-22 01:38:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-22 01:38:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-22 01:39:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-22 01:39:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-22 01:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-22 01:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-22 01:51:02 --> Undefined variable $setting
+in APPPATH\Views\setting.php on line 37.
+ 1 APPPATH\Views\setting.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\setting.php', 37)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\setting.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('setting', [], true)
+ 5 APPPATH\Views\template.php(154): view('setting')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Setting.php(19): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Setting->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 01:55:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-22 01:55:44 --> Undefined property: App\Controllers\Setting::$ModelSetting
+in APPPATH\Controllers\Setting.php on line 24.
+ 1 APPPATH\Controllers\Setting.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Setting::$ModelSetting', 'C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Controllers\\Setting.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Setting->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 01:56:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 01:56:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+CRITICAL - 2024-04-22 01:56:31 --> Trying to access array offset on value of type null
+in APPPATH\Views\setting.php on line 37.
+ 1 APPPATH\Views\setting.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\setting.php', 37)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\setting.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('setting', [], true)
+ 5 APPPATH\Views\template.php(154): view('setting')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Setting.php(27): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Setting->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 01:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 01:57:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+CRITICAL - 2024-04-22 01:57:04 --> Trying to access array offset on value of type null
+in APPPATH\Views\setting.php on line 37.
+ 1 APPPATH\Views\setting.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\setting.php', 37)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\setting.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('setting', [], true)
+ 5 APPPATH\Views\template.php(154): view('setting')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Setting.php(27): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Setting->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 01:58:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 01:58:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+CRITICAL - 2024-04-22 01:58:51 --> Trying to access array offset on value of type null
+in APPPATH\Views\setting.php on line 37.
+ 1 APPPATH\Views\setting.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\setting.php', 37)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\setting.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('setting', [], true)
+ 5 APPPATH\Views\template.php(154): view('setting')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Setting.php(27): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Setting->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 01:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 01:59:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+CRITICAL - 2024-04-22 01:59:39 --> Trying to access array offset on value of type null
+in APPPATH\Views\setting.php on line 37.
+ 1 APPPATH\Views\setting.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\setting.php', 37)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\setting.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('setting', [], true)
+ 5 APPPATH\Views\template.php(154): view('setting')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Setting.php(27): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Setting->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:01:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:01:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+CRITICAL - 2024-04-22 02:01:29 --> Trying to access array offset on value of type null
+in APPPATH\Views\setting.php on line 37.
+ 1 APPPATH\Views\setting.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\setting.php', 37)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\setting.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('setting', [], true)
+ 5 APPPATH\Views\template.php(154): view('setting')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Setting.php(27): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Setting->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:02:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:02:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+CRITICAL - 2024-04-22 02:02:59 --> Trying to access array offset on value of type null
+in APPPATH\Views\setting.php on line 37.
+ 1 APPPATH\Views\setting.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\setting.php', 37)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\setting.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('setting', [], true)
+ 5 APPPATH\Views\template.php(154): view('setting')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Setting.php(27): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Setting->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:03:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+CRITICAL - 2024-04-22 02:03:32 --> Trying to access array offset on value of type null
+in APPPATH\Views\setting.php on line 37.
+ 1 APPPATH\Views\setting.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\setting.php', 37)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\setting.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('setting', [], true)
+ 5 APPPATH\Views\template.php(154): view('setting')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Setting.php(27): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Setting->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:03:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+CRITICAL - 2024-04-22 02:03:35 --> Trying to access array offset on value of type null
+in APPPATH\Views\setting.php on line 37.
+ 1 APPPATH\Views\setting.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\setting.php', 37)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\setting.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('setting', [], true)
+ 5 APPPATH\Views\template.php(154): view('setting')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Setting.php(27): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Setting->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:03:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+CRITICAL - 2024-04-22 02:03:35 --> Trying to access array offset on value of type null
+in APPPATH\Views\setting.php on line 37.
+ 1 APPPATH\Views\setting.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\setting.php', 37)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\setting.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('setting', [], true)
+ 5 APPPATH\Views\template.php(154): view('setting')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Setting.php(27): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Setting->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:04:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+CRITICAL - 2024-04-22 02:04:01 --> Undefined variable $title
+in APPPATH\Views\template.php on line 9.
+ 1 APPPATH\Views\template.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\template.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 5 APPPATH\Controllers\Setting.php(29): view('template', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Setting->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:04:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+CRITICAL - 2024-04-22 02:04:39 --> Trying to access array offset on value of type null
+in APPPATH\Views\setting.php on line 37.
+ 1 APPPATH\Views\setting.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\setting.php', 37)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\setting.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('setting', [], true)
+ 5 APPPATH\Views\template.php(154): view('setting')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Setting.php(27): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Setting->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:05:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-22 02:10:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:10:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:10:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:10:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:15:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:15:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:15:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+CRITICAL - 2024-04-22 02:15:47 --> Undefined variable $id
+in APPPATH\Controllers\Setting.php on line 32.
+ 1 APPPATH\Controllers\Setting.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Controllers\\Setting.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Setting->UpdateSetting()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:16:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:16:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:16:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:16:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+CRITICAL - 2024-04-22 02:16:45 --> Too few arguments to function App\Controllers\Setting::UpdateSetting(), 0 passed in C:\Users\MyPC One Pro K7\Documents\project\koss\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\Setting.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Setting->UpdateSetting()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:17:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:17:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+CRITICAL - 2024-04-22 02:17:05 --> Undefined property: App\Controllers\Setting::$modelUser
+in APPPATH\Controllers\Setting.php on line 41.
+ 1 APPPATH\Controllers\Setting.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Setting::$modelUser', 'C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Controllers\\Setting.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Setting->UpdateSetting()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:17:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+CRITICAL - 2024-04-22 02:17:33 --> Undefined array key "id"
+in APPPATH\Models\ModelSetting.php on line 20.
+ 1 APPPATH\Models\ModelSetting.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Models\\ModelSetting.php', 20)
+ 2 APPPATH\Controllers\Setting.php(41): App\Models\ModelSetting->UpdateData([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Setting->UpdateSetting()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:18:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:18:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+CRITICAL - 2024-04-22 02:18:06 --> Undefined variable $id
+in APPPATH\Controllers\Setting.php on line 32.
+ 1 APPPATH\Controllers\Setting.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Controllers\\Setting.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Setting->UpdateSetting()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:19:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:19:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:19:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:19:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:19:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:19:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:20:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:20:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:20:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:20:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:20:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:20:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:20:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:20:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:20:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:20:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:20:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:20:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:20:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:20:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:20:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:20:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:20:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:20:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:20:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:20:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:20:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:20:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:20:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:20:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:20:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:20:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:20:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:20:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:20:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:20:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:20:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:20:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:20:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:20:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:20:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:20:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:20:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:20:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:20:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:20:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:20:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:20:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:21:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:21:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:21:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:21:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-22 02:21:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Setting::$ModelSetting is deprecated in APPPATH\Controllers\Setting.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Setting->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-22 02:21:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-22 02:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

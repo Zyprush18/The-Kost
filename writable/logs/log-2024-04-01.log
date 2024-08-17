@@ -1,0 +1,223 @@
+INFO - 2024-04-01 00:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:02:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:02:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:07:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:07:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-01 00:07:40 --> mysqli_sql_exception: Unknown column 'slug' in 'field list' in C:\Users\MyPC One Pro K7\Documents\project\koss\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\MyPC One Pro K7\Documents\project\koss\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ko...', 0)
+#1 C:\Users\MyPC One Pro K7\Documents\project\koss\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 C:\Users\MyPC One Pro K7\Documents\project\koss\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 C:\Users\MyPC One Pro K7\Documents\project\koss\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', Array, false)
+#4 C:\Users\MyPC One Pro K7\Documents\project\koss\app\Models\ModelKost.php(15): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\MyPC One Pro K7\Documents\project\koss\app\Controllers\Pemasaran.php(71): App\Models\ModelKost->InsertData(Array)
+#6 C:\Users\MyPC One Pro K7\Documents\project\koss\system\CodeIgniter.php(932): App\Controllers\Pemasaran->Simpan()
+#7 C:\Users\MyPC One Pro K7\Documents\project\koss\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+#8 C:\Users\MyPC One Pro K7\Documents\project\koss\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\MyPC One Pro K7\Documents\project\koss\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\MyPC One Pro K7\Documents\project\koss\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC O...')
+#11 {main}
+CRITICAL - 2024-04-01 00:07:40 --> Unknown column 'slug' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `kost` (`nama_kost`, `slug`, `alamat_kost`, `jumlah_kamar`, `kamar_tersedia`, `harga_sewa`, `nomor_telepon`, `tipe_kost`, `lokasi`, `foto`, `deskripsi`) VALUES (\'Kost Rahman\', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kost` (`nama_kost`, `slug`, `alamat_kost`, `jumlah_kamar`, `kamar_tersedia`, `harga_sewa`, `nomor_telepon`, `tipe_kost`, `lokasi`, `foto`, `deskripsi`) VALUES (\'Kost Rahman\', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kost` (`nama_kost`, `slug`, `alamat_kost`, `jumlah_kamar`, `kamar_tersedia`, `harga_sewa`, `nomor_telepon`, `tipe_kost`, `lokasi`, `foto`, `deskripsi`) VALUES (\'Kost Rahman\', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kost` (`nama_kost`, `slug`, `alamat_kost`, `jumlah_kamar`, `kamar_tersedia`, `harga_sewa`, `nomor_telepon`, `tipe_kost`, `lokasi`, `foto`, `deskripsi`) VALUES (:nama_kost:, :slug:, :alamat_kost:, :jumlah_kamar:, :kamar_tersedia:, :harga_sewa:, :nomor_telepon:, :tipe_kost:, :lokasi:, :foto:, :deskripsi:)', [...], false)
+ 5 APPPATH\Models\ModelKost.php(15): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Pemasaran.php(71): App\Models\ModelKost->InsertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->Simpan()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-01 00:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:08:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 00:09:16 --> url_title(): Argument #1 ($str) must be of type string, null given, called in C:\Users\MyPC One Pro K7\Documents\project\koss\app\Controllers\Pemasaran.php on line 54
+in SYSTEMPATH\Helpers\url_helper.php on line 531.
+ 1 APPPATH\Controllers\Pemasaran.php(54): url_title(null, '-', true)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->Simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-01 00:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:10:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 00:10:25 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\Pemasaran.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->Simpan()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-01 00:10:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:11:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 00:11:39 --> Call to a member function isValid() on string
+in APPPATH\Controllers\Pemasaran.php on line 88.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->Simpan()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-01 00:12:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 00:12:38 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\Pemasaran.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->Simpan()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-01 00:14:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:14:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:14:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:14:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:14:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:14:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:14:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:14:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:31:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:31:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:32:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:32:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:34:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:34:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:35:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:36:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:36:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:36:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:37:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:37:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:37:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:37:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:39:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:39:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:39:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:39:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:48:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 00:49:03 --> url_title(): Argument #1 ($str) must be of type string, null given, called in C:\Users\MyPC One Pro K7\Documents\project\koss\app\Controllers\Pemasaran.php on line 59
+in SYSTEMPATH\Helpers\url_helper.php on line 531.
+ 1 APPPATH\Controllers\Pemasaran.php(59): url_title(null, '-', true)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->Simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-01 00:49:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:50:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:50:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:50:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:50:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:50:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:52:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:52:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:52:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:53:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:53:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:53:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:53:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:54:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:54:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:55:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:59:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 00:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-01 00:59:34 --> mysqli_sql_exception: Unknown column 'slug' in 'field list' in C:\Users\MyPC One Pro K7\Documents\project\koss\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\MyPC One Pro K7\Documents\project\koss\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ko...', 0)
+#1 C:\Users\MyPC One Pro K7\Documents\project\koss\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 C:\Users\MyPC One Pro K7\Documents\project\koss\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 C:\Users\MyPC One Pro K7\Documents\project\koss\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', Array, false)
+#4 C:\Users\MyPC One Pro K7\Documents\project\koss\app\Models\ModelKost.php(15): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\MyPC One Pro K7\Documents\project\koss\app\Controllers\Pemasaran.php(70): App\Models\ModelKost->InsertData(Array)
+#6 C:\Users\MyPC One Pro K7\Documents\project\koss\system\CodeIgniter.php(932): App\Controllers\Pemasaran->Simpan()
+#7 C:\Users\MyPC One Pro K7\Documents\project\koss\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+#8 C:\Users\MyPC One Pro K7\Documents\project\koss\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\MyPC One Pro K7\Documents\project\koss\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\MyPC One Pro K7\Documents\project\koss\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC O...')
+#11 {main}
+CRITICAL - 2024-04-01 00:59:34 --> Unknown column 'slug' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `kost` (`nama_kost`, `slug`, `alamat_kost`, `jumlah_kamar`, `kamar_tersedia`, `harga_sewa`, `nomor_telepon`, `tipe_kost`, `lokasi`, `foto`, `deskripsi`) VALUES (\'Kost Rahman\', \'kost-rahman\', NULL, NULL, NULL, NULL, NULL, NULL, NULL, \'1711933174_21d350b462d107ac7b0f.jpg\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kost` (`nama_kost`, `slug`, `alamat_kost`, `jumlah_kamar`, `kamar_tersedia`, `harga_sewa`, `nomor_telepon`, `tipe_kost`, `lokasi`, `foto`, `deskripsi`) VALUES (\'Kost Rahman\', \'kost-rahman\', NULL, NULL, NULL, NULL, NULL, NULL, NULL, \'1711933174_21d350b462d107ac7b0f.jpg\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kost` (`nama_kost`, `slug`, `alamat_kost`, `jumlah_kamar`, `kamar_tersedia`, `harga_sewa`, `nomor_telepon`, `tipe_kost`, `lokasi`, `foto`, `deskripsi`) VALUES (\'Kost Rahman\', \'kost-rahman\', NULL, NULL, NULL, NULL, NULL, NULL, NULL, \'1711933174_21d350b462d107ac7b0f.jpg\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kost` (`nama_kost`, `slug`, `alamat_kost`, `jumlah_kamar`, `kamar_tersedia`, `harga_sewa`, `nomor_telepon`, `tipe_kost`, `lokasi`, `foto`, `deskripsi`) VALUES (:nama_kost:, :slug:, :alamat_kost:, :jumlah_kamar:, :kamar_tersedia:, :harga_sewa:, :nomor_telepon:, :tipe_kost:, :lokasi:, :foto:, :deskripsi:)', [...], false)
+ 5 APPPATH\Models\ModelKost.php(15): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Pemasaran.php(70): App\Models\ModelKost->InsertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->Simpan()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-01 01:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 01:00:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 01:00:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 01:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 01:02:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 01:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 01:03:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 01:04:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 01:04:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 01:04:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 01:04:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 01:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 01:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 01:09:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 01:11:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 01:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 01:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 01:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 01:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

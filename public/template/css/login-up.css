@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #ececec;
+}
+
+.box-area{
+    width: 465px;
+}
+/* 
+.tempat{
+    position: absolute;
+    top: 50px;
+    z-index: 1;
+   right: 592px;
+   width: 88px;
+   height: 88px;
+   border-radius: 50%;
+   background-color: white;
+   box-shadow: 0  0px 1px  rgba(0, 0, 0, 0.1)
+
+    
+}
+.tempat .i{   
+    position: absolute;
+    margin-top: 19px;
+    margin-left: 22px;
+    /* margin-bottom: 50px; */
+    /* font-size: 50px;
+    z-index: 10000; 
+
+} */
+
+.right-box{
+    padding: 40px 30px 40px 40px;
+}
+
+
+@media (max-width: 768px){
+
+     .box-area{
+        margin: 0 10px;
+
+     }
+     .left-box{
+        height: 100px;
+        overflow: hidden;
+     }
+     .right-box{
+        padding: 20px;
+     }
+}
+
+.JudulKost{
+    color: green;
+}

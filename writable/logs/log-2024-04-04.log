@@ -1,0 +1,678 @@
+INFO - 2024-04-04 00:15:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:15:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:16:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:16:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:16:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:18:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:18:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:18:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:19:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:20:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:20:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:24:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:24:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 00:24:59 --> Undefined array key ""
+in APPPATH\Views\pemasaran.php on line 11.
+ 1 APPPATH\Views\pemasaran.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key ""', 'C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\pemasaran.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\pemasaran.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pemasaran', [], true)
+ 5 APPPATH\Views\pemasaranTemplate.php(142): view('pemasaran')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\pemasaranTemplate.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pemasaranTemplate', [], true)
+ 9 APPPATH\Controllers\Pemasaran.php(27): view('pemasaranTemplate', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 00:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:30:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:35:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:35:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:38:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:53:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:54:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:54:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:54:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:55:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:55:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:55:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:58:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 00:58:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:00:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:00:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:00:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:01:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:01:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:01:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:01:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:01:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:02:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:02:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:02:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:10:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:10:17 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Pemasaran.php(111): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:11:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:11:30 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Pemasaran.php(111): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:11:44 --> Call to a member function where() on array
+in APPPATH\Controllers\Pemasaran.php on line 111.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:15:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:19:22 --> Undefined variable $title
+in APPPATH\Views\pemasaranTemplate.php on line 8.
+ 1 APPPATH\Views\pemasaranTemplate.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\pemasaranTemplate.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\pemasaranTemplate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pemasaranTemplate', [], true)
+ 5 APPPATH\Controllers\Pemasaran.php(114): view('pemasaranTemplate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:21:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:21:56 --> Undefined array key "slug"
+in APPPATH\Controllers\Pemasaran.php on line 113.
+ 1 APPPATH\Controllers\Pemasaran.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug"', 'C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Controllers\\Pemasaran.php', 113)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:21:58 --> Undefined array key "slug"
+in APPPATH\Controllers\Pemasaran.php on line 113.
+ 1 APPPATH\Controllers\Pemasaran.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug"', 'C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Controllers\\Pemasaran.php', 113)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:22:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:22:57 --> Attempt to read property "where" on array
+in APPPATH\Controllers\Pemasaran.php on line 111.
+ 1 APPPATH\Controllers\Pemasaran.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "where" on array', 'C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Controllers\\Pemasaran.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:23:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:23:55 --> Call to a member function where() on array
+in APPPATH\Controllers\Pemasaran.php on line 111.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:24:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:24:07 --> Call to a member function where() on array
+in APPPATH\Controllers\Pemasaran.php on line 111.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:24:08 --> Call to a member function where() on array
+in APPPATH\Controllers\Pemasaran.php on line 111.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:24:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:24:09 --> Call to a member function where() on array
+in APPPATH\Controllers\Pemasaran.php on line 111.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:24:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:24:09 --> Call to a member function where() on array
+in APPPATH\Controllers\Pemasaran.php on line 111.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:24:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:24:09 --> Call to a member function where() on array
+in APPPATH\Controllers\Pemasaran.php on line 111.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:24:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:24:09 --> Call to a member function where() on array
+in APPPATH\Controllers\Pemasaran.php on line 111.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:24:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:24:09 --> Call to a member function where() on array
+in APPPATH\Controllers\Pemasaran.php on line 111.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:24:10 --> Call to a member function where() on array
+in APPPATH\Controllers\Pemasaran.php on line 111.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:24:10 --> Call to a member function where() on array
+in APPPATH\Controllers\Pemasaran.php on line 111.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:24:10 --> Call to a member function where() on array
+in APPPATH\Controllers\Pemasaran.php on line 111.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:33:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:33:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:33:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:33:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:34:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:34:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:34:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:34:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:34:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:35:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:35:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:36:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:36:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:36:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:36:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:36:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:36:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:36:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:36:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:36:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:36:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:37:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:37:33 --> Call to a member function where() on array
+in APPPATH\Controllers\Pemasaran.php on line 111.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:37:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:37:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:37:51 --> Call to a member function where() on array
+in APPPATH\Controllers\Pemasaran.php on line 111.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:37:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:38:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:44:43 --> Call to a member function where() on array
+in APPPATH\Controllers\Pemasaran.php on line 111.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:50:57 --> Call to a member function where() on array
+in APPPATH\Controllers\Pemasaran.php on line 111.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:51:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:51:13 --> Call to a member function where() on array
+in APPPATH\Controllers\Pemasaran.php on line 111.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:51:14 --> Call to a member function where() on array
+in APPPATH\Controllers\Pemasaran.php on line 111.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:51:14 --> Call to a member function where() on array
+in APPPATH\Controllers\Pemasaran.php on line 111.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:51:14 --> Call to a member function where() on array
+in APPPATH\Controllers\Pemasaran.php on line 111.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:51:14 --> Call to a member function where() on array
+in APPPATH\Controllers\Pemasaran.php on line 111.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:51:14 --> Call to a member function where() on array
+in APPPATH\Controllers\Pemasaran.php on line 111.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:51:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:51:24 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Pemasaran.php(111): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:51:41 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Pemasaran.php(111): CodeIgniter\Model->__call('table', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:51:41 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Pemasaran.php(111): CodeIgniter\Model->__call('table', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:51:41 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Pemasaran.php(111): CodeIgniter\Model->__call('table', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:51:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:51:42 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Pemasaran.php(111): CodeIgniter\Model->__call('table', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:51:55 --> Array to string conversion
+in APPPATH\Controllers\Pemasaran.php on line 113.
+ 1 APPPATH\Controllers\Pemasaran.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Controllers\\Pemasaran.php', 113)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:52:14 --> Undefined property: App\Controllers\Pemasaran::$db
+in APPPATH\Controllers\Pemasaran.php on line 111.
+ 1 APPPATH\Controllers\Pemasaran.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Pemasaran::$db', 'C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Controllers\\Pemasaran.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:52:14 --> Undefined property: App\Controllers\Pemasaran::$db
+in APPPATH\Controllers\Pemasaran.php on line 111.
+ 1 APPPATH\Controllers\Pemasaran.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Pemasaran::$db', 'C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Controllers\\Pemasaran.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:52:15 --> Undefined property: App\Controllers\Pemasaran::$db
+in APPPATH\Controllers\Pemasaran.php on line 111.
+ 1 APPPATH\Controllers\Pemasaran.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Pemasaran::$db', 'C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Controllers\\Pemasaran.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:52:15 --> Undefined property: App\Controllers\Pemasaran::$db
+in APPPATH\Controllers\Pemasaran.php on line 111.
+ 1 APPPATH\Controllers\Pemasaran.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Pemasaran::$db', 'C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Controllers\\Pemasaran.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:52:15 --> Undefined property: App\Controllers\Pemasaran::$db
+in APPPATH\Controllers\Pemasaran.php on line 111.
+ 1 APPPATH\Controllers\Pemasaran.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Pemasaran::$db', 'C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Controllers\\Pemasaran.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:52:16 --> Undefined property: App\Controllers\Pemasaran::$db
+in APPPATH\Controllers\Pemasaran.php on line 111.
+ 1 APPPATH\Controllers\Pemasaran.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Pemasaran::$db', 'C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Controllers\\Pemasaran.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:52:16 --> Undefined property: App\Controllers\Pemasaran::$db
+in APPPATH\Controllers\Pemasaran.php on line 111.
+ 1 APPPATH\Controllers\Pemasaran.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Pemasaran::$db', 'C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Controllers\\Pemasaran.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:52:16 --> Undefined property: App\Controllers\Pemasaran::$db
+in APPPATH\Controllers\Pemasaran.php on line 111.
+ 1 APPPATH\Controllers\Pemasaran.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Pemasaran::$db', 'C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Controllers\\Pemasaran.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:52:16 --> Undefined property: App\Controllers\Pemasaran::$db
+in APPPATH\Controllers\Pemasaran.php on line 111.
+ 1 APPPATH\Controllers\Pemasaran.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Pemasaran::$db', 'C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Controllers\\Pemasaran.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:52:17 --> Undefined property: App\Controllers\Pemasaran::$db
+in APPPATH\Controllers\Pemasaran.php on line 111.
+ 1 APPPATH\Controllers\Pemasaran.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Pemasaran::$db', 'C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Controllers\\Pemasaran.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:52:48 --> Undefined array key "slug"
+in APPPATH\Controllers\Pemasaran.php on line 113.
+ 1 APPPATH\Controllers\Pemasaran.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug"', 'C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Controllers\\Pemasaran.php', 113)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:53:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:53:03 --> Undefined variable $page
+in APPPATH\Views\pemasaranTemplate.php on line 141.
+ 1 APPPATH\Views\pemasaranTemplate.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\pemasaranTemplate.php', 141)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\pemasaranTemplate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pemasaranTemplate', [], true)
+ 5 APPPATH\Controllers\Pemasaran.php(115): view('pemasaranTemplate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:53:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:53:05 --> Undefined variable $page
+in APPPATH\Views\pemasaranTemplate.php on line 141.
+ 1 APPPATH\Views\pemasaranTemplate.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\pemasaranTemplate.php', 141)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\pemasaranTemplate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pemasaranTemplate', [], true)
+ 5 APPPATH\Controllers\Pemasaran.php(115): view('pemasaranTemplate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:53:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:53:05 --> Undefined variable $page
+in APPPATH\Views\pemasaranTemplate.php on line 141.
+ 1 APPPATH\Views\pemasaranTemplate.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\pemasaranTemplate.php', 141)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\pemasaranTemplate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pemasaranTemplate', [], true)
+ 5 APPPATH\Controllers\Pemasaran.php(115): view('pemasaranTemplate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:53:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:53:05 --> Undefined variable $page
+in APPPATH\Views\pemasaranTemplate.php on line 141.
+ 1 APPPATH\Views\pemasaranTemplate.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\pemasaranTemplate.php', 141)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\pemasaranTemplate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pemasaranTemplate', [], true)
+ 5 APPPATH\Controllers\Pemasaran.php(115): view('pemasaranTemplate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:53:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:53:05 --> Undefined variable $page
+in APPPATH\Views\pemasaranTemplate.php on line 141.
+ 1 APPPATH\Views\pemasaranTemplate.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\pemasaranTemplate.php', 141)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\pemasaranTemplate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pemasaranTemplate', [], true)
+ 5 APPPATH\Controllers\Pemasaran.php(115): view('pemasaranTemplate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:53:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:53:05 --> Undefined variable $page
+in APPPATH\Views\pemasaranTemplate.php on line 141.
+ 1 APPPATH\Views\pemasaranTemplate.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\pemasaranTemplate.php', 141)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\pemasaranTemplate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pemasaranTemplate', [], true)
+ 5 APPPATH\Controllers\Pemasaran.php(115): view('pemasaranTemplate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:53:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:53:06 --> Undefined variable $page
+in APPPATH\Views\pemasaranTemplate.php on line 141.
+ 1 APPPATH\Views\pemasaranTemplate.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\pemasaranTemplate.php', 141)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\pemasaranTemplate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pemasaranTemplate', [], true)
+ 5 APPPATH\Controllers\Pemasaran.php(115): view('pemasaranTemplate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:53:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-04 01:53:06 --> Undefined variable $page
+in APPPATH\Views\pemasaranTemplate.php on line 141.
+ 1 APPPATH\Views\pemasaranTemplate.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\pemasaranTemplate.php', 141)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\app\\Views\\pemasaranTemplate.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pemasaranTemplate', [], true)
+ 5 APPPATH\Controllers\Pemasaran.php(115): view('pemasaranTemplate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pemasaran->detail('kost-rahman')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasaran))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\MyPC One Pro K7\\Documents\\project\\koss\\public\\index.php')
+INFO - 2024-04-04 01:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:57:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:57:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:58:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:59:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 01:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 02:00:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 02:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 02:00:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 02:01:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 02:04:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 02:04:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 02:04:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 02:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 02:08:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 02:10:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 02:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 02:10:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 02:11:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 02:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 02:12:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 02:12:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 02:12:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 02:12:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 02:13:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 02:33:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 02:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 02:34:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 02:34:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 02:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 02:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 02:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 02:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 02:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 02:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 02:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-04 02:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

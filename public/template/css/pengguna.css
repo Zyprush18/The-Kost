@@ -1,0 +1,90 @@
+body{
+    background-color: gray;
+}
+.JudulKost{
+    color: green;
+}
+
+.tombol-cari{
+   font-size: 19px;
+   color: black;
+}
+
+.panggilan{
+   font-size: 19px;
+   color: black;
+}
+
+.contents {
+  padding-top: 115px;
+}
+
+
+.ms-5 {
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    margin-right: 20px;
+}
+
+.text{
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+
+.imgjudul{
+    width: 500px;
+}
+
+.topik{
+    margin-top: 50px;
+}
+
+.judultopik{
+    text-align: center;
+}
+
+.kos{
+    margin-top: 50px;
+}
+
+.inpo{
+    color: rgb(173, 173, 173);
+}
+
+.kembali{
+    margin-top: 500px;
+    margin-bottom: 50px;
+}
+
+.mp{
+    top: 20px;
+}
+.about{
+    color: black;
+    background-color: rgb(206, 206, 206);
+    width: 100%;
+    height: 250px;
+    align-items: center;
+}
+
+.hhh{
+    margin-top: 80px;
+}
+
+.foto_kost{
+    max-width: 1000px;
+    height: auto;
+    margin-left: 110px;
+    margin-top: 29px;
+}
+/* 
+.kk1{
+    margin-left: 190px;
+}*/
+.kk{
+    margin-left: 20px;
+    /* margin-top: 50px; */
+} 
